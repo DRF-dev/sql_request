@@ -30,7 +30,7 @@
 
 #16 SELECT SUM(nbr_siege) AS 'nbr place' FROM `salle` WHERE etage_salle = 1
 
-#17
+#17 SELECT membre_id as id_membre, `date` as histo_date FROM `historique_membre` INNER JOIN `membre` ON membre.id = historique_membre.membre_id WHERE film_id = 453 OR film_id = 642 ORDER BY id_membre ASC
 
 #18
 
