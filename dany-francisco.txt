@@ -10,7 +10,7 @@
 
 #6 SELECT COUNT(titre) AS'nombre_films' FROM `film` WHERE LOWER(titre) LIKE 'B%'
 
-#7
+#7 SELECT `titre` FROM `film` WHERE LOWER(titre) LIKE '%the%' AND genre_id IN (2)
 
 #8
 
